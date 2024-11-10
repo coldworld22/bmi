@@ -1,0 +1,125 @@
+@media (max-width: 768px) {
+  .limitations-title {
+    font-size: 1.75rem;
+  }
+  .limitations-description {
+    font-size: 0.95rem;
+  }
+}
+@media (max-width: 991px) {
+  .bmi-calculator-section {
+    padding-bottom: 100px;
+  }
+  .container {
+    padding: 0 20px;
+  }
+  .content-wrapper {
+    flex-direction: column;
+  }
+  .left-column, .right-column {
+    width: 100%;
+  }
+  .title {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+  .meaning-section, .tips-grid, .limitations-section {
+    flex-direction: column;
+  }
+  .meaning-image, .meaning-content, .limitations-content, .limitation-cards {
+    width: 100%;
+  }
+  .tips-section {
+    padding: 40px 20px;
+  }
+}
+.bmi-calculator-section {
+  background: #fff;
+  padding: 74px 0 120px;
+  overflow: hidden;
+}
+
+.title {
+  color: #253347;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 1.09;
+  letter-spacing: -3.2px;
+}
+
+.description {
+  color: #5e6e85;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 35px;
+}
+
+.calculator-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 16px 32px 56px rgba(143, 174, 207, 0.25);
+  padding: 32px;
+}
+
+.result-section {
+  background: linear-gradient(90deg, #345ff6 0%, #587dff 100%);
+  border-radius: 0 32px 32px 0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 32px;
+  margin-top: 32px;
+}
+
+.tips-section {
+  background: linear-gradient(290deg, #d6e6fe 0%, rgba(214, 252, 254, 0) 100%);
+  border-radius: 35px;
+  padding: 84px 70px;
+  margin-top: 96px;
+}
+
+.tip-title {
+  color: #253347;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -1.2px;
+  margin-top: 45px;
+}
+
+.tip-description {
+  color: #5e6e85;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 24px;
+}
+
+.limitations-section {
+  background: linear-gradient(135deg, #f7fafc, #ffffff);
+  padding: 3rem 0;
+}
+
+.limitation-card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+.limitation-card:hover {
+  transform: translateY(-5px);
+}
+
+.limitation-title {
+  color: #253347;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.limitation-description {
+  color: #5e6e85;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-top: 0.5rem;
+}
+
+/*# sourceMappingURL=styles.css.map */

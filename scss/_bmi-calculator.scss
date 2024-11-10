@@ -1,0 +1,40 @@
+// _bmi-calculator.scss
+
+.bmi-calculator-section {
+    background: $background-color;
+    padding: 74px 0 120px;
+    overflow: hidden;
+  }
+  
+  .title {
+    color: $primary-color;
+    font-size: $font-large;
+    font-weight: 600;
+    line-height: 1.09;
+    letter-spacing: -3.2px;
+  }
+  
+  .description {
+    color: $secondary-color;
+    font-size: $font-small;
+    line-height: 1.5;
+    margin-top: 35px;
+  }
+  
+  .calculator-card {
+    background: $background-color;
+    border-radius: 16px;
+    box-shadow: 16px 32px 56px $shadow-color;
+    padding: 32px;
+  }
+  
+  .result-section {
+    background: $gradient-primary;
+    border-radius: 0 32px 32px 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 32px;
+    margin-top: 32px;
+  }
+  

@@ -1,0 +1,47 @@
+// _global.scss (or each specific file as needed)
+
+@media (max-width: 768px) {
+    .limitations-title {
+      font-size: 1.75rem;
+    }
+  
+    .limitations-description {
+      font-size: 0.95rem;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .bmi-calculator-section {
+      padding-bottom: 100px;
+    }
+  
+    .container {
+      padding: 0 20px;
+    }
+  
+    .content-wrapper {
+      flex-direction: column;
+    }
+  
+    .left-column, .right-column {
+      width: 100%;
+    }
+  
+    .title {
+      font-size: 40px;
+      line-height: 1.2;
+    }
+  
+    .meaning-section, .tips-grid, .limitations-section {
+      flex-direction: column;
+    }
+  
+    .meaning-image, .meaning-content, .limitations-content, .limitation-cards {
+      width: 100%;
+    }
+  
+    .tips-section {
+      padding: 40px 20px;
+    }
+  }
+  
