@@ -56,5 +56,4 @@ The development process focused on creating a responsive and accessible interfac
 ## How to Run
 
 1. Install Sass if not already installed:
-   ```bash
-   npm install -g sass
+ npm install -g sass
